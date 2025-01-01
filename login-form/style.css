@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    border: 1px solid green;
+
+}
+
+.left-side .heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.left-side .heading header {
+    font-size: 1.5rem;
+    margin-left: 0.75rem;
+}
+
+.left-side .form-wrapper {
+    margin: 100px auto;
+    height: 65%;
+    width: 55%;
+}
+
+.form-wrapper h1 {
+    margin-bottom: 1rem;
+}
+
+.form-wrapper p {
+    color: #a3a3a6;
+    margin-bottom: 1rem;
+
+}
+
+.form-wrapper input[type="password"], input[type="email"] {
+    display: block;
+    width: 100%;
+    height: 2.8rem;
+    border: 1px solid #a3a3a6;
+    outline: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.input-group {
+    margin-bottom: 0.5rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-wrapper .additional-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.additional-form .remember-me {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.additional-form .remember-me label {
+    font-size: 0.9rem;
+}
+
+.additional-form .remember-me input {
+    margin-right: 0.5rem;
+}
+
+.additional-form .forgot-password a {
+    font-size: 0.9rem;
+}
+.form-wrapper .btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23%;
+}
+
+.btn-group button {
+    height: 2.8rem;
+    border-radius: 0.25rem;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.btn-group #signin-btn {
+    background-color: #61459e;
+    color: #ffffff;
+    border: none;
+    font-size: 0.9rem;
+
+}
+
+.btn-group #signin-google-btn {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #a3a3a6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-group #signin-google-btn img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.btn-group #signin-google-btn span {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.form-wrapper .signup{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+.form-wrapper .signup p {
+    transform: translateX(0.7rem);
+}
+
+.form-wrapper .signup a {
+    transform: translateX(-2rem);
+}
+
+.right-side { 
+    height: 100%;
+    width: 50%;
+}
+
+.right-side img{ 
+    height: 100%;
+    width: 100%;
+}
+
