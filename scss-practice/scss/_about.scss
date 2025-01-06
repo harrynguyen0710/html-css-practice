@@ -1,0 +1,10 @@
+.about {
+    background: darken-color($primary-color, 10%);
+    padding: 2rem;
+  
+    h2 {
+      @extend .header-title;
+      font-size: 2rem;
+    }
+  }
+  

@@ -1,0 +1,7 @@
+.footer {
+    @include flex-center;
+    padding: 1rem;
+    background: $secondary-color;
+    color: white;
+  }
+  
